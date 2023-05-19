@@ -9,7 +9,7 @@ const sendMessage = async(senderId, message) => {
   //v11.0
     let options = {
       method: 'POST',
-      url: `https://graph.facebook.com/v16.0/${PAGE_ID}/messages`,
+      url: `https://graph.facebook.com/v11.0/${PAGE_ID}/messages`,
       params: {
         access_token: TOKEN,
         recipient: JSON.stringify({'id': senderId}),
