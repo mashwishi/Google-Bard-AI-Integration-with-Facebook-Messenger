@@ -1,8 +1,4 @@
 /node_modules
-/vendor
-/.idea
-.idea/
+/playground
 .env
-/public/bower_components
-
-.vercel
+package-lock.json
