@@ -6,9 +6,10 @@ const PAGE_ID = process.env.PAGE_ID;
 
 const sendMessage = async(senderId, message) => {
 
+  //v11.0
     let options = {
       method: 'POST',
-      url: `https://graph.facebook.com/v11.0/${PAGE_ID}/messages`,
+      url: `https://graph.facebook.com/v16.0/${PAGE_ID}/messages`,
       params: {
         access_token: TOKEN,
         recipient: JSON.stringify({'id': senderId}),
@@ -16,7 +17,9 @@ const sendMessage = async(senderId, message) => {
         message: JSON.stringify({'text': message})
       }
     };
-    
+
+    console.log({senderId, message})
+
     let response = await axios.request(options);
 
     if (response['status'] == 200 && response['statusText'] === 'OK') {
