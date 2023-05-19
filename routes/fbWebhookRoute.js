@@ -23,7 +23,7 @@ router.post('/', async (req, res) => {
 
   try {
     let body = req.body;
-    console.log(req.body.messaging[0])
+    console.log(body.entry[0].messaging[0])
     let requestType = body.object;
     let senderId = body.entry[0].messaging[0].sender.id;
     let query = body.entry[0].messaging[0].message.text;
