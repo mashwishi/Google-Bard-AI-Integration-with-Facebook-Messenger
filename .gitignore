@@ -4,3 +4,5 @@
 .idea/
 .env
 /public/bower_components
+
+.vercel
