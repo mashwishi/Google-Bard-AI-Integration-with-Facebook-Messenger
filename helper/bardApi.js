@@ -23,7 +23,9 @@ const chatCompletion = async (prompt, senderId) => {
             },
         });
 
-        let content = await bot.ask(prompt, senderId);
+        console.log(`Sender ID: ${senderId}`);
+
+        let content = await bot.ask(prompt, `${senderId}`);
 
         return {
             status: 1,
