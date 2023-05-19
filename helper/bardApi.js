@@ -10,7 +10,7 @@ const chatCompletion = async (prompt, senderId) => {
         const { Bard } = await importDynamic("googlebard")
         
         let bot = new Bard(cookies, {
-            //inMemory: false, 
+            inMemory: false, 
             //savePath: "./conversations.json", 
             proxy: {
                 host: process.env.PROXY_HOST,
@@ -23,7 +23,12 @@ const chatCompletion = async (prompt, senderId) => {
             },
         });
 
-        console.log(`Sender ID: ${senderId}`);
+        console.log(
+            {
+                SenderID: senderId,
+                Message: prompt,
+            }
+        );
 
         let content = await bot.ask(prompt, `${senderId}`);
 
