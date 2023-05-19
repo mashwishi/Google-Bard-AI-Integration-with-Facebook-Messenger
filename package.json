@@ -1,6 +1,6 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
+  "name": "Mechi-Messenger",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "node-fetch": "^3.2.6",
-    "openai": "^3.2.1"
+    "fs": "^0.0.1-security",
+    "googlebard": "1.0.5"
   }
 }

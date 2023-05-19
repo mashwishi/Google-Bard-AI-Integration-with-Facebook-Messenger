@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 require('dotenv').config();
 
-const { chatCompletion } = require('../helper/openaiApi');
+const { chatCompletion } = require('../helper/bardApi');
 const { sendMessage } = require('../helper/messengerApi');
 
 router.get('/', (req, res) => {
