@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 require('dotenv').config();
 
-const { chatCompletion } = require('../helper/openaiApi');
+const { chatCompletion } = require('../helper/bardApi');
 const { sendMessage } = require('../helper/messengerApi');
 
 router.get('/', (req, res) => {
@@ -22,10 +22,7 @@ router.get('/', (req, res) => {
 router.post('/', async (req, res) => {
   try {
     let body = req.body;
-    console.log(body);
     let requestType = body.object;
-    // let senderId = body.value.sender.id;
-    // let query = body.value.message.text;
     let senderId = body.entry[0].messaging[0].sender.id;
     let query = body.entry[0].messaging[0].message.text;
     let result = await chatCompletion(query);

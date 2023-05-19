@@ -1,1 +1,1 @@
-# Connect Openai to FB Messenger
+# Connect Bard to Mechi Messenger
