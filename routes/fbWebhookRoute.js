@@ -22,6 +22,7 @@ router.get('/', (req, res) => {
 router.post('/', async (req, res) => {
   try {
     let body = req.body;
+    console.log(body);
     let requestType = body.object;
     // let senderId = body.value.sender.id;
     // let query = body.value.message.text;
