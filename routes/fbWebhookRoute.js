@@ -25,7 +25,7 @@ router.post('/', async (req, res) => {
     let requestType = body.object;
     let senderId = body.entry[0].messaging[0].sender.id;
     let query = body.entry[0].messaging[0].message.text;
-    let result = await chatCompletion(query);
+    let result = await chatCompletion(query, senderId);
     await sendMessage(senderId, result.response);
   } catch (error) {
     console.log(error);

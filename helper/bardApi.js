@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const chatCompletion = async (prompt) => {
+const chatCompletion = async (prompt, senderId) => {
 
     try {
 
@@ -23,7 +23,7 @@ const chatCompletion = async (prompt) => {
             // },
         });
 
-        let content = await bot.ask(prompt);
+        let content = await bot.ask(prompt, senderId);
 
         return {
             status: 1,
