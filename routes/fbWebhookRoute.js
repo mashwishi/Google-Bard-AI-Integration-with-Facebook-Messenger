@@ -29,8 +29,12 @@ router.post('/', async (req, res) => {
     console.log(body)
 
     let requestType = body.object;
-    let senderId = body.entry[0].messaging[0].sender.id;
-    let query = body.entry[0].messaging[0].message.text;
+    
+    // let senderId = body.entry[0].messaging[0].sender.id;
+    // let query = body.entry[0].messaging[0].message.text;
+    let senderId = body.value.sender.id;
+    let query = body.value.message.text;
+
     let result = await chatCompletion(query);
     await sendMessage(senderId, result.response);
   } catch (error) {
