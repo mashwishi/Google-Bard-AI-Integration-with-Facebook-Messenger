@@ -23,7 +23,7 @@ const chatCompletion = async (prompt) => {
             },
         });
 
-        let content = await bot.ask(prompt, user_id);
+        let content = await bot.ask(prompt);
 
         return {
             status: 1,
