@@ -87,6 +87,12 @@ To allow other users to get access or respond from the bot make sure `pages_mess
 This section list of major things that we used to this project.
 
 [![Javascript][javascript]][javascript-url]
+[![Google][google]][google-url]
+[![Node][node]][node-url]
+[![Facebook][facebook]][facebook-url]
+
+### Support this Project
+[GoogleBard - A reverse engineered API](https://github.com/PawanOsman/GoogleBard) created by [@PawanOsman](https://github.com/PawanOsman).
 
 ## Contributing
 
@@ -114,3 +120,9 @@ Don't forget to give the project a star! Thanks again!
 
 [javascript]: https://img.shields.io/badge/Javascript-EAD51C?style=for-the-badge&logo=Javascript&logoColor=01001F
 [javascript-url]: https://youtu.be/dQw4w9WgXcQ
+[google]: https://img.shields.io/badge/Google-white?style=for-the-badge&logo=Google&logoColor=black
+[google-url]: https://bard.google.com/
+[node]: https://img.shields.io/badge/Node.js-036E01?style=for-the-badge&logo=Node.js&logoColor=white
+[node-url]: https://nodejs.org/en
+[facebook]: https://img.shields.io/badge/Facebook-3A5795?style=for-the-badge&logo=Facebook&logoColor=white
+[facebook-url]: https://www.facebook.com
