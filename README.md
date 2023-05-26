@@ -2,7 +2,7 @@
 <div align="center">
 <br />
   <a href="https://github.com/mashwishi">
-    <img src="https://i.imgur.com/BqGt0UV.png" alt="Logo" width="300">
+    <img src="https://i.imgur.com/ajKhoi4.png" alt="Logo" width="300">
   </a>
 <br /><br />
   <h3 align="center">Google Bard AI Integration with Facebook Messenger</h3>
