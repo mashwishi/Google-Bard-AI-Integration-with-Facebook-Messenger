@@ -5,7 +5,7 @@
     <img src="https://i.imgur.com/ajKhoi4.png" alt="Logo" width="300">
   </a>
 <br /><br />
-  <h3 align="center">Google Bard AI Integration with Facebook Messenger</h3>
+  <h3 align="center">Reverse engineered Google Bard AI Integration with Facebook Messenger</h3>
   <p align="center">
 This repository provides a guide and code samples for connecting Google's Bard AI to Facebook Messenger. By integrating these two powerful platforms, you can enhance your Messenger chatbots with advanced natural language processing capabilities offered by Google Bard AI.
    <br/><br/>
