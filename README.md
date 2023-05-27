@@ -55,7 +55,7 @@ PROXY_PASSWORD=
 
 #Facebook
 TOKEN=
-VERIFY_TOKEN=<create-your-own-token-this-is-for-webhook-verification>
+VERIFY_TOKEN=<create-your-own-token-for-facebook-webhook-verification>
 PAGE_ID=
 
 #Required Port
